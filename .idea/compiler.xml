@@ -22,11 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="gittest1" />
+        <module name="sub1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="gittest1" target="1.5" />
+      <module name="sub1" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
